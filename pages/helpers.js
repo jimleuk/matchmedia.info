@@ -18,6 +18,8 @@ export const getDimensions = () => ({
       'document.documentElement.clientHeight': document.documentElement.clientHeight,
       'window.innerHeight': window.innerHeight,
       'window.outerHeight': window.outerHeight,
+      'window.pageXOffset': window.pageXOffset,
+      'window.pageYOffset': window.pageYOffset,
     },
     device: {
       'window.screen.width': window.screen.width,

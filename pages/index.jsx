@@ -8,18 +8,20 @@ class Home extends React.PureComponent {
 
   state = {}
 
-  resizeHandler = null
+  update = null
 
   componentDidMount() {
-    this.resizeHandler()
-    window.addEventListener('resize', this.resizeHandler)
+    this.update()
+    window.addEventListener('resize', this.update)
+    window.addEventListener('scroll', this.update)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.resizeHandler)
+    window.removeEventListener('resize', this.update)
+    window.removeEventListener('scroll', this.update)
   }
 
-  resizeHandler = debounce(() => {
+  update = debounce(() => {
     this.setState({ dimensions: getDimensions() })
   })
 
