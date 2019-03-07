@@ -80,6 +80,8 @@ class Home extends React.PureComponent {
                 </a> by Ryan Van Etten 2012
               </div>
               Thrown together in a hurry by <a href="https://twitter.com/jimle_uk">@jimle_uk</a>
+              {' '}&middot;{' '}
+              <a href="https://github.com/jimleuk/matchmedia.info">Github</a>
             </div>
           </div>
         </div>
