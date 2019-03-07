@@ -40,16 +40,16 @@ class Home extends React.PureComponent {
           <meta property="og:url" content="https://matchmedia.info" />
           <meta property="og:title" content="@matchMedia.info - get browser device viewport dimensions" />
           <meta property="og:description" content="matchMedia.info is a simple helper tool for web and mobile devs" />
-          <meta property="og:image" content="/static/ogimage.png" />
+          <meta property="og:image" content="https://matchmedia.info/static/ogimage.png" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://matchmedia.info" />
           <meta property="twitter:title" content="@matchMedia - get browser device viewport dimensions" />
           <meta property="twitter:description" content="matchMedia.info is a simple helper tool for web and mobile devs" / >
-          <meta property="twitter:image" content="/static/ogimage.png" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
-          <link rel="manifest" href="/static/site.webmanifest" />
+          <meta property="twitter:image" content="https://matchmedia.info/static/ogimage.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="https://matchmedia.info/static/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="https://matchmedia.info/static/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="https://matchmedia.info/static/favicon-16x16.png" />
+          <link rel="manifest" href="https://matchmedia.info/static/site.webmanifest" />
           <Stylesheet />
         </Head>
         <div className="container">
