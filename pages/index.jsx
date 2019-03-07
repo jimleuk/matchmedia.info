@@ -30,7 +30,20 @@ class Home extends React.PureComponent {
       <div>
         <Head>
           <title>@matchMedia.info - get device viewport dimensions</title>
+          <meta charset="utf-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="title" content="@matchMedia.info - get browser device viewport dimensions" />
+          <meta name="description" content="matchMedia.info is a simple helper tool for web and mobile devs" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://matchmedia.info" />
+          <meta property="og:title" content="@matchMedia.info - get browser device viewport dimensions" />
+          <meta property="og:description" content="matchMedia.info is a simple helper tool for web and mobile devs" />
+          <meta property="og:image" content="/static/ogimage.png" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://matchmedia.info" />
+          <meta property="twitter:title" content="@matchMedia - get browser device viewport dimensions" />
+          <meta property="twitter:description" content="matchMedia.info is a simple helper tool for web and mobile devs" / >
+          <meta property="twitter:image" content="/static/ogimage.png" />
           <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
